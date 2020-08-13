@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<!--fonte -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	
+	<meta charset="utf-8">
+	
+	<title> Alterar Fruta </title>
+	
+	<!--folha de estilo -->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<!----------------------------------------------------->
+<body>
+		<header class="cabeca">
+		<a href="bancoDeFrutas.html"><h1>Banco de Frutas</h1></a>	
+		</header>
+	<!-- Formulario -->
+		<div class="form">
+			<form action="processaAlter.php" method="POST">
+		<fieldset>
+			<legend> Alterar Fruta </legend>
+			<label> ID da fruta que deseja vender :</label>
+			<input type="text" name="id" placeholder=" Digite o ID da fruta" required />
+			<br></br>
+			<label> Quantidade :</label> 
+			<input type="text" name="quant" placeholder=" Digite a nova quantidade da fruta" required />
+			<br></br>
+			<label> Preco :</label> 
+			<input type="text" name="precoFruta" placeholder=" Digite o novo preço da fruta" required />
+			<br></br>
+			<button type="submit">Alterar</button>
+		</fieldset>
+		</form>
+		</div>
+		
+		<div>
+			<img src="frutas.jpg">
+		</div>
+		
+
+	</body>
+	</html>
